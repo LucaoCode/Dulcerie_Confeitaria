@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    background-color: #FFF9EA;
+    background-color: #ebd6d2;
 }
 
 section {
@@ -22,7 +22,7 @@ section {
 }
 
 .section-title {
-    color: #e9a209;
+    color: #94404c;
     font-size: 25px;
 }
 
@@ -35,7 +35,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #FFCB45;
+    background-color: #a45c74;
     border-radius: 12px;
     padding: 10px 14px;
     font-weight: 600;
@@ -45,17 +45,17 @@ section {
 
 .btn-default:hover {
     cursor: pointer;
-    background-color: #f8d477;
+    background-color: rgb(186, 138, 52);
 }
 
 /** Header **/
 
 header {
     width: 100%;
-    padding: 28px 8%;
+    padding: 15px 8%;
     position: sticky;
     top: 0;
-    background-color: #FFF9EA;
+    background-color: #ebd6d2;
     z-index: 3;
     /* box-shadow: 5px 1px 10px rgba(0, 0, 0, 0.1); */
 }
@@ -70,7 +70,7 @@ header {
 
 #navbar #nav_logo {
     font-size: 24px;
-    color: #e9a209;
+    color: #94404c;
 }
 
 #nav_list {
@@ -88,7 +88,7 @@ header {
 .nav-item.active a {
     color: #1d1d1d;
     
-    border-bottom: 3px solid #ffe100;
+    border-bottom: 3px solid #94404c;
 }
 
 #mobile_btn {
@@ -115,7 +115,7 @@ header {
     width: 50%;
     height: 100%;
     border-radius: 40% 30% 0% 20%;
-    background-color: #ffe8b4;
+    background-color: #ebd6d2;
     position: absolute;
     z-index: 1;
     right: 0;
@@ -128,7 +128,7 @@ header {
 }
 
 #home .title span {
-    color: #e9a209;
+    color: #94404c;
 }
 
 #home .description {
@@ -197,7 +197,7 @@ header {
 /** Menu **/
 
 #menu {
-    background-color: #FFF9EA;
+    background-color: #ebd6d2;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -229,7 +229,7 @@ header {
 
 #menu #dishes .dish-heart {
     position: absolute;
-    background-color: #e9a209;
+    background-color: #94404c;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -248,7 +248,7 @@ header {
 }
 
 .dish-rate i {
-    color: #e9a209;
+    color: #94404c;
 }
 
 .dish-price {
@@ -270,6 +270,7 @@ header {
 #testimonial_chef {
     width: 500px;
     height: auto;
+    border-radius: 100%;
 }
 
 #testimonials .section-subtitle {
@@ -314,12 +315,12 @@ header {
 }
 
 .feedback-content p span {
-    color: #e9a209;
+    color: #94404c;
 }
 
 /** Footer **/
 footer {
-    background: #ffe8b4;
+    background: #ebd6d2;
     position: relative;
 }
 
@@ -329,7 +330,7 @@ footer {
     padding: 0px 8% 24px 8%;
     display: flex;
     justify-content: space-between;
-    background-color: #ffe8b4;
+    background-color: #ebd6d2;
     font-weight: 500;
     color: #1d1d1d;
 }
